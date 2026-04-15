@@ -1,0 +1,81 @@
+body{
+  background-color: #140b39;
+  padding: 4%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root{
+  height:100%;
+}
+main{
+  
+ 
+  border-radius: 15px;
+  height: 100%;
+  background-color: #d73e3e;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+  font-size: 70px;
+  margin: 0;
+  color: white;
+}
+
+.instructions {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  padding: 4rem ;
+  text-align: center;
+  text-wrap: inherit;
+  font-weight: bold;
+}
+
+.container2 {
+
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 5;
+  gap: 10px;
+  padding: 1rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  
+  
+}
+
+.container2 button {
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  background-color: #fdfdfd;
+  border: 1px solid rgb(228, 224, 224);
+  box-shadow: 0px 5px 5px rgb(211, 196, 189);
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor:pointer;
+  padding: 20px ;
+  
+}
+
+#roll{
+  font-size: 20px;
+  color: #fdfdfd;
+  background-color: rgb(40, 60, 172);
+}
